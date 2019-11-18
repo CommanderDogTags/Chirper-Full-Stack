@@ -60,7 +60,7 @@ const Edit: React.FC<EditProps> = props => {
                             </select>
 
                             <textarea rows={8} value={text} onChange={e => setText(e.target.value)} 
-                            placeholder={text} className="form-control my-1 shadow-sm" />
+                            placeholder={} className="form-control my-1 shadow-sm" />
 
                         </div>
 
